@@ -1,6 +1,6 @@
 -- who is the senior most employee based on the job title --
 
-SELECT *
+SELECT * 
 FROM employee
 Order by levels desc
 LIMIT 1;
